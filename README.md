@@ -1,54 +1,52 @@
-📈 Coca-Cola Stock Analysis
-A comprehensive time-series analysis project leveraging over a century of historical trading data from Coca-Cola (KO). This project explores trends, volatility, volume patterns, and predictive modeling based on stock market behaviors.
+📈 **Coca-Cola Stock Analysis**
+A professional time-series analysis of Coca-Cola (KO) stock using over 100 years of historical data. This project focuses on trends, volatility, trading volume patterns, and forecasting using statistical and machine learning techniques.
 
-📂 Project Structure
-bash
-Copy
-Edit
+**Project Structure**
+
 coca-cola-stock-analysis/
-│
-├── data/                # Original dataset (.csv) and cleaned version
-├── notebooks/           # Jupyter notebooks for exploration, analysis, and modeling
-├── scripts/             # Python scripts for data cleaning and automation
-├── README.md            # Project documentation
-├── requirements.txt     # Project dependencies
+├── data/             # Raw and cleaned CSV data
+├── notebooks/        # Jupyter Notebooks for analysis & modeling
+├── scripts/          # Python scripts for automation
+├── README.md         # Project overview
+├── requirements.txt  # Python dependencies
 └── .gitignore
-🔍 Project Objectives
-Ingest and preprocess over 100 years of KO stock data.
 
-Perform exploratory data analysis (EDA) with descriptive statistics and plots.
+**🔍 Project Objectives**
+Preprocess and clean KO stock data from 1919 to 2025.
 
-Handle missing values, datetime parsing, and data cleaning.
+Perform exploratory data analysis (EDA) with statistical summaries.
 
-Visualize price movements, volume trends, and rolling averages.
+Visualize trends in prices, volumes, and volatility.
 
-Engineer financial features (e.g., moving averages, price deltas).
+Engineer features such as rolling averages and log returns.
 
-Apply and evaluate predictive models (linear regression, time series).
+Build regression-based models for stock price prediction.
 
-Build reusable scripts for data cleaning and visualization.
+Develop reusable scripts for automation and reproducibility.
 
-⚙️ Data Processing & Analysis Techniques
-Datetime conversion for proper time indexing.
+⚙️** Techniques Used**
+Datetime parsing for time-indexed analysis
 
-Null value detection and removal to ensure modeling accuracy.
+Handling missing values to ensure data quality
 
-Descriptive statistics: mean, std dev, min/max, percentiles.
+Descriptive statistics: mean, std, min, max, quartiles
 
-Price visualization: daily closing, adjusted close, open/high/low patterns.
+Visualization:
 
-Volume tracking: trade activity over decades.
+Price (Open, High, Low, Close, Adj Close)
 
-Rolling statistics: moving averages (e.g., 50-day, 200-day).
+Trading volume trends
 
-Log returns and volatility: foundational analysis for financial modeling.
+Moving averages (e.g., 50-day, 200-day)
 
-Simple predictive modeling: linear regression for price forecasting.
+Volatility metrics: daily returns and log return analysis
 
-📊 Dataset Information
-Source: Kaggle
+Predictive modeling using linear regression on time series
 
-Coverage: 1919 – 2025 (daily frequency)
+**📊 Dataset Information**
+Source: Kaggle – Coca-Cola Stock Data (1919–2025)
+
+Frequency: Daily trading data
 
 Columns:
 
@@ -56,28 +54,34 @@ date: Trade date
 
 open: Opening price
 
-high: High of day
+high: Highest price of the day
 
-low: Low of day
+low: Lowest price of the day
 
 close: Closing price
 
-adj_close: Adjusted closing price for splits/dividends
+adj_close: Adjusted close (for dividends & splits)
 
-volume: Number of shares traded
+volume: Shares traded
 
-📦 Requirements
-bash
-Copy
-Edit
-pandas
-matplotlib
-seaborn
-plotly
-scikit-learn
-Install with:
+**📦 Installation & Requirements**
+Install the required Python libraries:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
+**Dependencies:**
+
+pandas
+
+matplotlib
+
+seaborn
+
+plotly
+
+scikit-learn
+
+
+
+
+
